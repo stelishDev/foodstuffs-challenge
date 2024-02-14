@@ -7,6 +7,6 @@
   "repository": "https://github.com/stelishDev/foodstuffs-challenge.git",
   "author": "Steve Kelly <stevek@talspot.com>",
   "license": "MIT",
-  "workspaces": [],
+  "workspaces": ["fs-web", "fs-hooks"],
   "scripts": {}
 }
