@@ -8,5 +8,7 @@
   "author": "Steve Kelly <stevek@talspot.com>",
   "license": "MIT",
   "workspaces": ["fs-web", "fs-hooks"],
-  "scripts": {}
+  "scripts": {
+    "hooks:test": "workspace fs-hooks test"
+  }
 }
