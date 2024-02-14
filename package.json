@@ -1,0 +1,12 @@
+{
+  "name": "foodstuffs-challenge",
+  "version": "0.0.1",
+  "description": "Mono-repo for the foodies challenge",
+  "main": "index.ts",
+  "private": true,
+  "repository": "https://github.com/stelishDev/foodstuffs-challenge.git",
+  "author": "Steve Kelly <stevek@talspot.com>",
+  "license": "MIT",
+  "workspaces": [],
+  "scripts": {}
+}
