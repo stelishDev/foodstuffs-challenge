@@ -1,9 +1,9 @@
 export enum Regions {
-  AKL = "Akl",
-  CHC = "Chc",
-  WLG = "Wlg",
-  TAS = "Tas",
-  WAI = "Wai",
+  AKL = "AKL",
+  CHC = "CHC",
+  WLG = "WLG",
+  TAS = "TAS",
+  WAI = "WAI",
 }
 
 export type CostRequest = {

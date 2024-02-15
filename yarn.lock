@@ -5276,13 +5276,6 @@ fs-minipass@^2.0.0:
   dependencies:
     minipass "^3.0.0"
 
-fs-ui@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/fs-ui/-/fs-ui-1.0.0.tgz#917c9ec031f9a2122deee66bd0c9f0f2447b10a2"
-  integrity sha512-g5x8lOYEYi2NcVU0mF0cWvdayEjf45hRISrj8cGC+S93SVx6TRI8WJih6pDT3oDRcHdykKJlYbzl2DJRUqM8lQ==
-  dependencies:
-    vue-lazyload "^1.2.6"
-
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -9305,7 +9298,18 @@ vite-node@1.2.2:
     picocolors "^1.0.0"
     vite "^5.0.0"
 
-vite@^5.0.0, vite@^5.1.0:
+vite@^5.0.0:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-5.1.3.tgz#dd072653a80225702265550a4700561740dfde55"
+  integrity sha512-UfmUD36DKkqhi/F75RrxvPpry+9+tTkrXfMNZD+SboZqBCMsxKtO52XeGzzuh7ioz+Eo/SYDBbdb0Z7vgcDJew==
+  dependencies:
+    esbuild "^0.19.3"
+    postcss "^8.4.35"
+    rollup "^4.2.0"
+  optionalDependencies:
+    fsevents "~2.3.3"
+
+vite@^5.1.0:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/vite/-/vite-5.1.2.tgz#34e04d38db27ceebe6f0c9d053ea14d6496753d1"
   integrity sha512-uwiFebQbTWRIGbCaTEBVAfKqgqKNKMJ2uPXsXeLIZxM8MVMjoS3j0cG8NrPxdDIadaWnPSjrkLWffLSC+uiP3Q==
@@ -9342,11 +9346,6 @@ vitest@^1.2.2:
     vite "^5.0.0"
     vite-node "1.2.2"
     why-is-node-running "^2.2.2"
-
-vue-lazyload@^1.2.6:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/vue-lazyload/-/vue-lazyload-1.3.5.tgz#eb36d299a519167d987fdf0ebfdc9c6dd1bf1ef0"
-  integrity sha512-SCO/LWgCCbjaregHO4wg2buzITBdPBZRlIS104vERGpT88uxXsK26veuzZpgGAXMR8WpkaR+JDqz80OedpaLiA==
 
 walker@^1.0.8:
   version "1.0.8"
