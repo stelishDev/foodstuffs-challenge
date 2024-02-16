@@ -1,6 +1,6 @@
 export {
   useCostCalculator,
-  type CostCalculatorType,
+  type CostCalculatorType
 } from "./useCostCalculator";
 
 export { Regions } from "./types";

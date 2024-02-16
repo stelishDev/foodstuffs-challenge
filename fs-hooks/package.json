@@ -1,8 +1,10 @@
 {
   "name": "fs-hooks",
-  "private": true,
+  "author": {
+    "name": "Steve Kelly",
+    "email": "stevek@talspot.com"
+  },
   "version": "0.0.1",
-  "type": "module",
   "scripts": {
     "test": "vitest"
   },
@@ -17,5 +19,6 @@
     "react-dom": "^18.2.0",
     "vite": "^5.1.0",
     "vitest": "^1.2.2"
-  }
+  },
+  "license": "MIT"
 }
